@@ -3,7 +3,6 @@ import cloneDeep from 'clone-deep'
 import { Button, IconButton } from '@material-ui/core'
 import CloseIcon from '@material-ui/icons/Close'
 import { buildEmptyFilter, getComponent } from '../../utils'
-import { SimpleSelect } from '../index'
 import { ComponentKeyMappings } from '../../constants/component-key-mappings'
 
 class QueryBuilder extends Component {

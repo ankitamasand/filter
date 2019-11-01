@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Select, MenuItem, OutlinedInput } from '@material-ui/core'
 
 const SimpleSelect = ({ values, selectedValue, onChange }) => {

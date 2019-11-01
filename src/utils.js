@@ -62,6 +62,8 @@ export const getComponent = ({ component, key, value }, onChange) => {
                     step='.01'
                 />
             )
+        default:
+            return null
     }
 }
 
